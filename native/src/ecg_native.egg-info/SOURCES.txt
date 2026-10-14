@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/module.cpp
+src/ecg_native.egg-info/PKG-INFO
+src/ecg_native.egg-info/SOURCES.txt
+src/ecg_native.egg-info/dependency_links.txt
+src/ecg_native.egg-info/not-zip-safe
+src/ecg_native.egg-info/top_level.txt
+tests/test_filters.py
+tests/test_reader.py
+third_party/edflib/edflib.c

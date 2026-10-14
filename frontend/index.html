@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>ECG Holter Viewer</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 16px; background: #fafafa; }
+    .toolbar { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; }
+    #chart { width: 100%; height: 500px; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; }
+    .status { color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <input type="file" id="edf-file" accept=".edf,.EDF,.bdf,.BDF" />
+    <button id="upload-btn" disabled>Загрузить</button>
+    <span class="status" id="status"></span>
+  </div>
+  <div id="chart"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
